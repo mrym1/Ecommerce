@@ -1,0 +1,134 @@
+
+.section {
+  /* font-size: 55.5%; */
+  padding: 1rem;
+  /* font-size: 5rem; */
+  line-height: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.image {
+  display: flex;
+  height: 50vh;
+  margin: 50px auto;
+  padding: 5rem;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+
+.name{
+    font-size: 4rem;
+    padding-bottom: 5rem;
+    color: rgb(115, 114, 114);
+    font-weight: 600;
+    margin-top: 50px;
+    text-align: center;
+}
+.brand{
+  display: flex;
+  font-size: 2rem;
+}
+
+
+.quantity_cont{
+  display: flex;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+}
+
+.quantity i {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.quantity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 4rem;
+  border: 0.141rem solid black;
+  font-size: 4rem;
+  text-align: center;
+  color: black;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  background-color: transparent;
+}
+
+
+.cont{
+  display: flex;
+  width: 80px;
+  height: 30px;
+  border: 1px solid green;
+  text-align: center;
+  margin-top: 0;
+  margin: 0rem 2rem;
+}
+h5{
+    border: none;
+    font-size: 2rem;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    width: 30px;
+}
+
+.size_cont{
+  display: flex;
+  font-size: 2rem;
+}
+.btn_num{
+  width: 60px;
+  height: 30px;
+  font-size: 2rem;
+  border: 1px solid green;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  margin: 0rem 2rem;
+}
+.btn_num:hover{
+  color: #fff;
+  background-color: green;
+}
+
+.detail, .dosage{
+  padding: 2rem 0rem;
+  font-size: 2rem;
+}
+
+.btn_add {
+  background: green;
+  width: 18rem;
+  color: white;
+  height: 5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn_add:hover {
+  color: black;
+  font-weight: bold;
+  background-color: #949694;
+  box-shadow: 0 4px 6px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
